@@ -1,4 +1,5 @@
 #!/bin/bash
+figlet Welcome!
 echo --------------------------------------------------------------
 echo 	 Hello $USER , Welcome to Caoei the time is $TIME
 echo --------------------------------------------------------------
@@ -29,3 +30,6 @@ while true; do
     esac
 done
 exit
+echo " Please enter your sudo password in 3 seconds"
+sleep 3
+sudo -i
